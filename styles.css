@@ -1,0 +1,53 @@
+/*a:-webkit-any-link {
+    color: white !important;
+    cursor: pointer;
+}*/
+/******************************************************************       Top-Bandeau          *********************************************************************************/
+#bandeau{
+    display: block;
+    padding: 40px;
+    background-color:rgba(51,51,51,1);
+    color:#ffffff;
+    text-align:center;
+    font-size: 35px;
+    text-decoration:underline;
+}
+
+/******************************************************************       left-nav menu         *********************************************************************************/
+
+#menu {
+    background-color:rgba(51,51,51,1);
+    display: block;
+    width: 100%;
+    height: 3em;
+    text-align: center;
+}
+#menu a {
+    padding: 10px;
+    display: inline-block;
+    float: left;
+    color: white !important;
+    cursor: pointer;
+}
+
+/******************************************************************       left-nav menu         *********************************************************************************/
+#corps{
+    position: static;
+}
+
+.operation {
+    padding: 2em;
+    position: absolute;
+    margin: -100px 0 0 -200px;
+    top: 40%;
+    left: 50%;
+    /*margin-top: 5px;*/
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	box-shadow:	
+		0pt 2px 5px rgba(105, 108, 109,  0.7),	
+		0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	border-radius: 5px;
+    text-shadow: 1px;
+    line-height:25px;
+}
